@@ -1,0 +1,33 @@
+body {
+    background: linear-gradient(#e44d26, #f16529);
+}
+
+.contenedor {
+    text-align: center;
+    margin-top: 5rem;
+}
+
+.grupo-formulario {
+    margin-bottom: 1rem;
+}
+
+.subida-personalizada {
+    display: inline-block;
+    padding: 6px 12px;
+    cursor: pointer;
+}
+
+.boton-comprobar {
+    text-align: center;
+}
+
+.boton-primario {
+    background-color: #e44d26;
+    border-color: #f16529;
+    color: #fff;
+}
+
+.boton-primario:hover {
+    background-color: #f16529;
+    border-color: #e44d26;
+}

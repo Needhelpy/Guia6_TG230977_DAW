@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comprobador de Archivos de Imagen</title>
+    <link rel="stylesheet" href="css/estiloimg.css">
+</head>
+<body>
+    <div class="contenedor mt-5">
+        <h1>Comprobador de Archivos de Imagen</h1>
+        <form id="formularioArchivo" enctype="multipart/form-data">
+            <div class="grupo-formulario">
+                <label for="entradaArchivo" class="subida-personalizada">
+                    <span>Seleccionar archivo de imagen</span>
+                    <input type="file" id="entradaArchivo" accept=".jpg, .jpeg, .png, .gif">
+                </label>
+            </div>
+            <div class="boton-comprobar">
+                <button type="button" id="botonComprobar" class="boton-primario">Comprobar</button>
+            </div>
+        </form>
+        <p id="resultado" class="mt-3"></p>
+    </div>
+    <script src="img.js"></script>
+</body>
+</html>

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Explorador de Palabras</title>
+    <link rel="stylesheet" href="/css/estilosdic.css"> 
+</head>
+<body>
+    <main class="contenedor">
+        <header>
+            <h1>Explorador de Definiciones y Palabras</h1>
+        </header>
+        <section class="buscador">
+            <form id="formularioBusqueda">
+                <input type="text" id="entradaBusqueda" class="campo-formulario" placeholder="Introduce una palabra...">
+                <select id="listaPalabras" size="15" class="campo-formulario"></select>
+                <button type="button" id="botonMostrarDefinicion" class="boton boton-primario">Ver Definición</button>
+            </form>
+        </section>
+        <section class="definicion">
+            <h2>Significado:</h2>
+            <p id="textoDefinicion" class="texto-definicion"></p>
+        </section>
+    </main>
+    <script src="diccionario.js"></script> 
+</body>
+</html>
